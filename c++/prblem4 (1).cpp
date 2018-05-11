@@ -1,3 +1,6 @@
+// Iris Manriquez
+// Novemeber 9, 2017
+// Programming Projects #4
 
 
 #include <iostream>
@@ -13,10 +16,7 @@ int dimes(int cuanto);
 
 int main()
 {
-
-char res;
 int change, remaining, dimes1, pennies, original, quarters;
-do {
 cout << "Input your change"<< endl;
 cin >>change;
 original = change;
@@ -34,10 +34,6 @@ else{
 pennies =0;}
 
 cout << original << " cents can be given as " << quarters<< " quarter(s) " << dimes1 << " dime(s) and " << pennies << " penny(pennies)" << endl;
-cout << "Continue? Press y"<< endl;
-cin >> res; 
-
-}while(res=='y' || res== 'Y');
 
 return 0;
 }

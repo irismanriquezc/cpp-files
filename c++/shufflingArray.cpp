@@ -1,3 +1,6 @@
+// Iris Manriquez
+// November 9 2017
+// Shuffling an array
 
 
 
